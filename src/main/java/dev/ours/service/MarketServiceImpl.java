@@ -50,4 +50,15 @@ public class MarketServiceImpl implements MarketService{
 
         return repository.findAll();
     }
+    @Override
+    public List<Market> findByTypeStartingWith(String type) {
+        return repository.findByTypeStartingWith(type);
+    }
+
+
+    @Override
+    public List<Market> findByProductNameLike(String productName) {
+        return repository.findByProductNameLike(productName);
+    }
+
 }

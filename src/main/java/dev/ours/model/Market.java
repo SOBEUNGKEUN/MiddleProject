@@ -7,6 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
@@ -21,4 +22,5 @@ public class Market {
     private String type;
     private String productName;
     private int productPrice;
+
 }
