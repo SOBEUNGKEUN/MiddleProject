@@ -1,5 +1,6 @@
 package dev.ours.model;
 
+
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import lombok.*;
 
@@ -28,4 +29,6 @@ public class ProgramList {
     private String managerPhone;
     private double latitude;
     private double longitude;
+
 }
+

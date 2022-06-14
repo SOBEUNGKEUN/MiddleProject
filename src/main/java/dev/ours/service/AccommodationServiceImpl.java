@@ -1,4 +1,5 @@
-    package dev.ours.service;
+package dev.ours.service;
+
 
 import dev.ours.model.Accommodation;
 import dev.ours.repository.AccommodationRepository;
@@ -10,6 +11,7 @@ import java.util.Optional;
 
 @Service
 public class AccommodationServiceImpl implements AccommodationService{
+
     @Autowired
     private AccommodationRepository repository;
 
@@ -31,8 +33,7 @@ public class AccommodationServiceImpl implements AccommodationService{
             newAccommodation.setCustomerPhone(accommodation.getCustomerPhone());
             newAccommodation.setCustomerCount(accommodation.getCustomerCount());
             newAccommodation.setReservationNumber(accommodation.getReservationNumber());
-
-            repository.save(newAccommodation);
+           repository.save(newAccommodation);
         });
 
         return repository.findAll();
@@ -49,5 +50,8 @@ public class AccommodationServiceImpl implements AccommodationService{
         return repository.findAll();
     }
 
+    public List<Accommodation>findByCustomerName(String customerName) {
+        return repository.findByCustomerName(customerName);
+    }
 
 }
