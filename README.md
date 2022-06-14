@@ -1,2 +1,2 @@
-# MidleProject
+# MiddleProject
 bootcam10th middleproject
