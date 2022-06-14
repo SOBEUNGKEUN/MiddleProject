@@ -1,5 +1,6 @@
 package dev.ours.service;
 
+import dev.ours.model.Accommodation;
 import dev.ours.model.ProgramList;
 
 import java.util.List;
@@ -18,6 +19,7 @@ public interface ProgramListService {
     List<ProgramList> findByStateNameStartingWith(String stateName);
 
     List<ProgramList> findByExperienceNameStartingWith(String experienceName);
+
 
 
 }
