@@ -1,5 +1,6 @@
 package dev.ours.service;
 
+import dev.ours.model.Accommodation;
 import dev.ours.model.ProgramList;
 import dev.ours.repository.ProgramListRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -59,8 +60,8 @@ public class ProgramListServiceImpl implements ProgramListService{
     }
 
     @Override
-    public List<ProgramList> findByStateNameStartingWith(String stateName) {
-        return repository.findByStateNameStartingWith(stateName);
+    public List<ProgramList> findByAddressStartingWith(String address) {
+        return repository.findByAddressStartingWith(address);
     }
 
     @Override

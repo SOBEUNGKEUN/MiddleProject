@@ -28,3 +28,4 @@ public class Accommodation {
     private String reservationNumber;
 
 }
+

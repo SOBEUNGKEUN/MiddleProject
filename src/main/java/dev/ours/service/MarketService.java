@@ -14,5 +14,8 @@ public interface MarketService {
 
     List<Market> delete(Long id);
 
+    List<Market> findByTypeStartingWith(String type);
+
+    List<Market> findByProductNameLike(String productName);
 
 }
