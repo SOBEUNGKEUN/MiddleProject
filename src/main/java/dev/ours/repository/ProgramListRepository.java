@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public interface ProgramListRepository extends JpaRepository<ProgramList,Long> {
 
-    List<ProgramList> findByStateNameStartingWith(String stateName);
+    List<ProgramList> findByAddressStartingWith(String address);
 
     List<ProgramList> findByExperienceNameStartingWith(String experienceName);
 }

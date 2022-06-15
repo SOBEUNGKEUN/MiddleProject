@@ -38,10 +38,10 @@ public class ProgramListController {
     }
 
 
-    @GetMapping("/state/{state_name}")
-	@Query("SELECT * FROM program_list where state_name like ? %")
-	public List<ProgramList> findByStateNameStartingWith(@PathVariable("state_name") String stateName){
-		return programListService.findByStateNameStartingWith(stateName);
+    @GetMapping("/address/{address}")
+	@Query("SELECT * FROM program_list where address like ? %")
+	public List<ProgramList> findByAddressStartingWith(@PathVariable("address") String stateName){
+		return programListService.findByAddressStartingWith(stateName);
 	}
 
     @GetMapping("/experience/{experience_name}")

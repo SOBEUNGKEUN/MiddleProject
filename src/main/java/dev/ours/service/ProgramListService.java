@@ -16,7 +16,7 @@ public interface ProgramListService {
 
     List<ProgramList> delete(Long id);
 
-    List<ProgramList> findByStateNameStartingWith(String stateName);
+    List<ProgramList> findByAddressStartingWith(String address);
 
     List<ProgramList> findByExperienceNameStartingWith(String experienceName);
 
