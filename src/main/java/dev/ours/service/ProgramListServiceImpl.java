@@ -69,5 +69,10 @@ public class ProgramListServiceImpl implements ProgramListService{
         return repository.findByExperienceNameStartingWith(experienceName);
     }
 
+    @Override
+    public List<ProgramList> findByProgramListId(Long programListId) {
+        return repository.findByProgramListId(programListId);
+    }
+
 
 }

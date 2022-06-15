@@ -21,5 +21,7 @@ public interface ProgramListService {
     List<ProgramList> findByExperienceNameStartingWith(String experienceName);
 
 
+    List<ProgramList> findByProgramListId(Long programListId);
+
 
 }

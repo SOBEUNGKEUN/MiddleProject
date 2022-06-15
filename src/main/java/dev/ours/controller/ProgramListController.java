@@ -40,14 +40,20 @@ public class ProgramListController {
 
     @GetMapping("/address/{address}")
 	@Query("SELECT * FROM program_list where address like ? %")
-	public List<ProgramList> findByAddressStartingWith(@PathVariable("address") String stateName){
-		return programListService.findByAddressStartingWith(stateName);
+	public List<ProgramList> findByAddressStartingWith(@PathVariable("address") String address){
+		return programListService.findByAddressStartingWith(address);
 	}
 
     @GetMapping("/experience/{experience_name}")
     @Query("SELECT * FROM program_list where experience_name like ? %")
     public List<ProgramList> findByExperienceNameStartingWith(@PathVariable("experience_name") String experienceName){
         return programListService.findByExperienceNameStartingWith(experienceName);
+    }
+
+    @GetMapping("/id/{program_list_id}")
+    @Query("SELECT * FROM program_list where program_list_id like ? ")
+    public List<ProgramList> findByProgramListId(@PathVariable("program_list_id") Long programListId){
+        return programListService.findByProgramListId(programListId);
     }
 
 }
