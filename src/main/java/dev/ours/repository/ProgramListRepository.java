@@ -12,4 +12,6 @@ public interface ProgramListRepository extends JpaRepository<ProgramList,Long> {
     List<ProgramList> findByAddressStartingWith(String address);
 
     List<ProgramList> findByExperienceNameStartingWith(String experienceName);
+
+    List<ProgramList> findByProgramListId(Long programListId);
 }
