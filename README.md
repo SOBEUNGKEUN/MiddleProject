@@ -41,9 +41,9 @@
    
 ----------------------
 # 📌05.UI(카카오 오븐, MIRO, MySQL ERD)구축도
-1️⃣ :one:[카카오 오븐](https://ovenapp.io/view/hw9xlOUNIKpDa2hZO7n8bGOPbL26vGaT/UT7Uw) <br><br>
-2️⃣ :two:![Miro EER](https://user-images.githubusercontent.com/100591948/174219083-5edc7991-79f8-4c3c-98ac-3380c9db7bbd.png)<br><br>
-3️⃣ :![MySQL erd URL](https://user-images.githubusercontent.com/100591948/174206530-0bb93e6b-45d8-4012-a6cd-7cbbb3baf0ab.png) <br><br>
+##1️⃣ : [카카오 오븐](https://ovenapp.io/view/hw9xlOUNIKpDa2hZO7n8bGOPbL26vGaT/UT7Uw) <br><br>
+## 2️⃣ : <Miro EER> ![Miro EER](https://user-images.githubusercontent.com/100591948/174219083-5edc7991-79f8-4c3c-98ac-3380c9db7bbd.png)<br><br>
+## 3️⃣ : <MySQL ERD> ![MySQL erd URL](https://user-images.githubusercontent.com/100591948/174206530-0bb93e6b-45d8-4012-a6cd-7cbbb3baf0ab.png) <br><br>
 
 
 ---------------
