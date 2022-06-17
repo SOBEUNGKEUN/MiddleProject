@@ -43,10 +43,10 @@
 # 📌05.UI(카카오 오븐, MIRO, MySQL ERD)구축도
 ## 1️⃣ : [카카오 오븐](https://ovenapp.io/view/hw9xlOUNIKpDa2hZO7n8bGOPbL26vGaT/UT7Uw) <br><br><br>
 
-## 2️⃣ : <Miro EER> <br>
+## 2️⃣ : Miro EER <br>
  ![Miro EER](https://user-images.githubusercontent.com/100591948/174219083-5edc7991-79f8-4c3c-98ac-3380c9db7bbd.png)<br><br><br>
  
-## 3️⃣ : <MySQL ERD> <br>
+## 3️⃣ : MySQL ERD <br>
  ![MySQL erd](https://user-images.githubusercontent.com/100591948/174206530-0bb93e6b-45d8-4012-a6cd-7cbbb3baf0ab.png) <br><br><br>
 
 
