@@ -38,7 +38,8 @@
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">
   
 ## BackEnd
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"><img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"><img src="https://img.shields.io/badge/amazonaws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"><img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> 
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"><img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"><img src="https://img.shields.io/badge/amazonaws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"><img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+<img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">  
 
 
 ## Tool
@@ -90,7 +91,7 @@
 
 ## 강희원) 긴 프로젝트를 좋은 팀원분들과 함께 하였고, 웃음이 끊이지를 않았습니다. 제대로 배우지 않은, API의 학술적이고 전문적 지식들을 수백번 구글링하고 참고하며, 부딪히는 과정을 앞으로의 숙명이라 느껴지는시간이었습니다. 카카오 로그인API 연동, 결제 API 연동 둘다 실현 못시켜 너무 아쉬우면서 내일부터라도 조금씩 코드개선해나가보겠습니다. 기술적 한계와 연구하고 개발하는 동안의 인내심의 부족함을 매번 느끼는데, 부족함을 팀원들이 채워주면서 반성과 위로를 하며 혐업의 소중함을 다시 깨닫는 좋은 시간이었습니다. 다음 프로젝트에는 배운과정에서의 기본을 토대로, 확장해가는 계획을 세우겠습니다.
  
-## 소병권)
+## 소병권) 오류에 매달려서 지체된 시간이 너무 아쉬운 프로젝트였다. 아직 경험이 부족하여 계획을 세울 때 해야할 일들이 어느정도 시간이 걸리고 어느 방향으로 진행해야 할지 몰라서 어려웠다. 그래도 학교에서는 못해봤던 다양한 API와 라이브러리를 활용하여 흥미를 느끼고 프로젝트에 참여 할 수 있었다. 다 같이 많이 힘들었지만 항상 웃으면서 좋은 분위기 속에서 작업할 수 있었다. 좋은 추억과 많은 경험을 가지고 갈 수 있는 의미있는 프로젝트였다. 
 
 ## 최지원) 애증의 하울의 움직이는 척 하는 성... 하지만 멀쩡히 서있는것 만으로도 사실은 뿌듯하다.수업 때 배웠던 기능 복습해보면서 실제로 해보니까 이해가 잘 됐고 처음 시도해보는 것들도 많은 분들의 도움을 통해 구현이 가능해서 신기했다. 또 오랜기간 동안 팀 프로젝트를 하는건 처음이었는데 깃허브 사용에 대해서도 많이 배울 수 있었고 또 다같이 즐겁게 작업할 수 있어서 좋았다. 다들 고생많으셨습니당~~
  
