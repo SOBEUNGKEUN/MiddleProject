@@ -16,10 +16,13 @@
 # 02.시연영상 url : 
 --------------------------------
 # 03. 도메인 용어 정의(테이블 3개)
+<체험프로그램 도메인>
 ![체험프로그램 도메인](https://user-images.githubusercontent.com/100591948/174218064-7de06631-820a-4b1f-bff7-b088c9d7f80b.png)
 
-![숙소 도메인](https://user-images.githubusercontent.com/100591948/174218048-280fc182-f3f6-4aaa-8652-a7031a181598.png)
+<숙소 도메인>
+![숙소 도메인](https://user-images.githubusercontent.com/100591948/174218278-5f46d3e8-3ac6-4390-8d8f-5a3e8999ac26.png)
 
+<시장 도메인>
 ![마켓 도메인](https://user-images.githubusercontent.com/100591948/174218039-75eca6d1-d858-459e-94d2-01afaaefb19c.png)
 
 -----------------------
