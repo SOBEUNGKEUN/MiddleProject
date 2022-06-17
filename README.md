@@ -41,7 +41,7 @@
    
 ----------------------
 # 📌05.UI(카카오 오븐, MIRO, MySQL ERD)구축도
-![Miro EER URL](https://miro.com/app/board/uXjVOuEItn4=/?userEmail=khw-6104@naver.com&track=true&utm_source=notification&utm_medium=email&utm_campaign=add-to-team-and-board&utm_content=go-to-board&invite_link_id=217891422778)
+![Miro EER URL]
 
 
 ![MySQL erd URL](https://user-images.githubusercontent.com/100591948/174206530-0bb93e6b-45d8-4012-a6cd-7cbbb3baf0ab.png)
@@ -59,7 +59,8 @@
 
 ----------------------
 # 📌07. 서비스 아키텍쳐
- [모놀리식 아키텍쳐]
+ <모놀리식 아키텍쳐> <br>
+ ![모놀리식 아키텍쳐]
  (https://user-images.githubusercontent.com/100591948/174213449-bb421e27-48a7-42d3-826e-af0f2d6816c7.png)
 
 ### ❓ 모놀리식 아키텍쳐란, 
