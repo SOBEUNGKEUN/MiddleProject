@@ -15,75 +15,12 @@
 -----------------------
 # 02.시연영상 url : 
 --------------------------------
-# 03. 도메인 용어 정의
---program_list--
-+-----------------+--------------+------+-----+---------+-------+
-| Field           | Type         | Null | Key | Default | Extra |
-+-----------------+--------------+------+-----+---------+-------+
-| id              | int          | NO   | PRI | NULL    |       |
-| village_name    | varchar(45)  | YES  |     | NULL    |       |
-| state_name      | varchar(45)  | YES  |     | NULL    |       |
-| city_name       | varchar(45)  | YES  |     | NULL    |       |
-| experience      | varchar(100) | YES  |     | NULL    |       |
-| experience_name | varchar(100) | YES  |     | NULL    |       |
-| address         | varchar(100) | YES  |     | NULL    |       |
-| manager         | varchar(45)  | YES  |     | NULL    |       |
-| manager_phone   | varchar(45)  | YES  |     | NULL    |       |
-| latitude        | double       | YES  |     | NULL    |       |
-| longitude       | double       | YES  |     | NULL    |       |
-+-----------------+--------------+------+-----+---------+-------+
-+-----------------+--------------+------+-----+
-| 물리명          | 데이터타입   |  도 메 인    |
-+-----------------+--------------+------+-----+
-| village_name    | varchar(45)  | 마을명      |
-| state_name      | varchar(45)  | 도          |
-| city_name       | varchar(45)  | 도시        |
-| experience      | varchar(100) | 프로그램     |
-| experience_name | varchar(100) | 체험명       |
-| address         | varchar(100) | 주소         |
-| manager         | varchar(45)  | 관리자       |
-| manager_phone   | varchar(45)  | 관리자연락처  |
-| latitude        | double       | 위도         |
-| longitude       | double       | 경도         |
-+-----------------+--------------+------+-----+-
+# 03. 도메인 용어 정의(테이블 3개)
+![체험프로그램 도메인](https://user-images.githubusercontent.com/100591948/174218064-7de06631-820a-4b1f-bff7-b088c9d7f80b.png)
 
---accommodation--
---------------------+-------------+------+-----+---------+-------+
-| Field              | Type        | Null | Key | Default | Extra |
-+--------------------+-------------+------+-----+---------+-------+
-| program_list_id    | int         | NO   | PRI | NULL    |       |
-| customer_name      | varchar(45) | YES  |     | NULL    |       |
-| customer_count     | int         | YES  |     | NULL    |       |
-| customer_phone     | varchar(45) | YES  |     | NULL    |       |
-| reservation_number | varchar(45) | YES  |     | NULL    |       |
-+--------------------+-------------+------+-----+---------+-------+
---------------------+-------------+------+-----+
-| 물리명              | 데이터타입 |   도메인    |
-+--------------------+-------------+------+----+
-| customer_name      | varchar(45) |   고객명  |
-| customer_count     | int         |  고객계좌 |
-| customer_phone     | varchar(45) | 고객연락처|
-| reservation_number | varchar(45) |  예약번호 |
-+--------------------+-------------+------+-----
+![숙소 도메인](https://user-images.githubusercontent.com/100591948/174218048-280fc182-f3f6-4aaa-8652-a7031a181598.png)
 
---market--
-+---------------+-------------+------+-----+---------+-------+
-| Field         | Type        | Null | Key | Default | Extra |
-+---------------+-------------+------+-----+---------+-------+
-| id            | int         | NO   | PRI | NULL    |       |
-| market_name   | varchar(45) | YES  |     | NULL    |       |
-| type          | varchar(45) | YES  |     | NULL    |       |
-| product_name  | varchar(45) | YES  |     | NULL    |       |
-| product_price | int         | YES  |     | NULL    |       |
-+---------------+-------------+------+-----+---------+-------+
-+---------------+-------------+------+-----+
-| 물리명         | 데이터타입 |   도메인     |
-+---------------+-------------+------+-----+
-| market_name   | varchar(45) |  시장명    |
-| type          | varchar(45) | 식품종류   |
-| product_name  | varchar(45) |   상품명   |
-| product_price | int         | 상품가격   | 
-+---------------+-------------+------+-----+
+![마켓 도메인](https://user-images.githubusercontent.com/100591948/174218039-75eca6d1-d858-459e-94d2-01afaaefb19c.png)
 
 -----------------------
 # 📚 04. 사용 기술 스택
